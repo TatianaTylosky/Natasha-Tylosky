@@ -1,3 +1,8 @@
+iframe {
+	position: relative;
+	left: 150px;
+}
+
 img {
 	padding: 0;
 	margin: 0;
@@ -9,8 +14,22 @@ img {
 
 }
 
+.about_me {
+	color: white;
+	text-align: center;
+	padding: 100px;
+	font-size: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
 img:hover {
 -webkit-filter: grayscale(100%); filter: grayscale(100%); 	
+}
+
+.tash {
+	float: left;
+	margin-right: 50px;
 }
 
 .gallery {
